@@ -1,0 +1,232 @@
+@font-face {
+    font-family:'android' ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-image: linear-gradient(green,lightgreen,cyan);
+    background-attachment: fixed;
+margin: 0% 8% ;    
+
+}
+
+header{
+background-color: rgb(17, 122, 13);
+margin: 0px;
+
+width:80% auto ;
+display:flexbox;
+align-items: center;
+justify-content: center;
+border-style: double;
+border-color: rgb(192, 226, 43);
+border: 0px 20px 0px 20px;
+}
+
+.logo{
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: 'android';
+color: rgb(29, 207, 53);
+}
+
+nav{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+gap: 4%;
+}
+
+.home1:hover{
+  text-shadow: 1px 1px 1px black ;
+  box-shadow: 1px 1px 1px black;
+  background-color: rgb(1, 36, 3);
+}
+
+.cu1:hover{
+  background-color: blueviolet;
+}
+
+.not1:hover{
+  background-image: linear-gradient(red,green,violet);
+
+
+}
+
+.fale:hover{
+  background-color: green;
+}
+
+
+.content{
+    background-color: aliceblue;
+    width:100% ;
+    height: auto;
+    margin: 0px;
+}
+
+
+.introdução{
+  background-image: linear-gradient(green,yellow);
+  background-size: 1px;
+font-family: 'android';
+text-align: center;  
+padding: 4px;
+margin: 8px;  
+}
+
+.pri{
+  background-image: linear-gradient(lightgreen );
+box-shadow: 8px 3px 8px yellow; 
+  text-align: center;
+}
+
+.cria{
+  text-align: center;
+  background-image: linear-gradient(green,lightgreen);
+}
+
+.p1{
+text-align: justify;
+padding: 2%;
+}
+
+.galeria1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.galeria1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.irina {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.irina img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+p{
+    text-align: center;
+    text-align: justify;
+    padding: 4%;
+}
+
+.droid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.droid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-container {
+display: flex;
+align-items: center;
+justify-content: center;
+
+  position: relative;
+  width: 80%;
+  max-width: 700px;   
+  margin: 0% auto;     
+  aspect-ratio: 16 / 9;
+  padding: 80% auto;
+
+}
+
+.video-container iframe {
+  width: 80%;
+  height: 80%;
+  border: 0;
+
+}
+
+.videoborda{
+background-image: linear-gradient(blue,cyan,black);
+
+}
+
+.feettitulo{
+text-align: center;
+
+
+}
+
+.feet{
+    background-image: linear-gradient(green,cyan);
+    
+}
+
+.feetlist{
+display: block;
+
+}
+
+.feetp{
+text-align: center;
+text-align: justify;
+
+}
+
+.topo{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.imgn{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.imgn img{
+    width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+.feettitulo{
+  padding: 8px;
+  margin: 0px;
+}
+
+.feet > ul{
+color:red;
+}
+
+
+
